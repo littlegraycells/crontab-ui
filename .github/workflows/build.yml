@@ -1,4 +1,4 @@
-name: Build-and-Deploy
+name: Build and Deploy
 
 on:
   push:
@@ -9,7 +9,7 @@ env:
   RELEASE: 0.3.16
 
 jobs:
-  Build and Deploy:
+  Build-and-Deploy:
     runs-on: ubuntu-latest
     steps:
       -
