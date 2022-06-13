@@ -6,7 +6,7 @@ on:
       - 'main'
 
 env:
-  RELEASE: 0.3.16
+  CRONTAB_UI_RELEASE: 0.3.16
 
 jobs:
   Build-and-Deploy:
@@ -40,4 +40,4 @@ jobs:
           push: true
           tags: reggaemahn/crontab-ui:latest
           build-args:
-            RELEASE=$RELEASE
+            RELEASE=$CRONTAB_UI_RELEASE
