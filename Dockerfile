@@ -18,7 +18,8 @@ RUN   apk --no-cache add \
       npm \
       supervisor \
       tzdata \
-      unzip
+      unzip \
+      rsync
 
 RUN   wget https://github.com/alseambusher/crontab-ui/archive/refs/tags/v$RELEASE.zip
 RUN   unzip v$RELEASE.zip
